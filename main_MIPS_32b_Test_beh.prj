@@ -1,0 +1,5 @@
+verilog work "InstructionMemory.v"
+verilog work "adder_4.v"
+verilog work "main_MIPS_32b.v"
+verilog work "main_MIPS_32b_Test.v"
+verilog work "C:/XilinxISE/14.7/ISE_DS/ISE//verilog/src/glbl.v"

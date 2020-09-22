@@ -1,0 +1,49 @@
+Running: C:\XilinxISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/ninja/Desktop/test/MIPS32bit_Project/mipstest_isim_beh.exe -prj C:/Users/ninja/Desktop/test/MIPS32bit_Project/mipstest_beh.prj work.mipstest work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/ninja/Desktop/test/MIPS32bit_Project/sign_extender.v" into library work
+Analyzing Verilog file "C:/Users/ninja/Desktop/test/MIPS32bit_Project/shiftby2_26b.v" into library work
+Analyzing Verilog file "C:/Users/ninja/Desktop/test/MIPS32bit_Project/shiftby2.v" into library work
+Analyzing Verilog file "C:/Users/ninja/Desktop/test/MIPS32bit_Project/RegisterFile.v" into library work
+Analyzing Verilog file "C:/Users/ninja/Desktop/test/MIPS32bit_Project/mux_2x1_5bit.v" into library work
+Analyzing Verilog file "C:/Users/ninja/Desktop/test/MIPS32bit_Project/mux_2x1_32bit.v" into library work
+Analyzing Verilog file "C:/Users/ninja/Desktop/test/MIPS32bit_Project/jump_concat.v" into library work
+Analyzing Verilog file "C:/Users/ninja/Desktop/test/MIPS32bit_Project/InstructionMemory.v" into library work
+Analyzing Verilog file "C:/Users/ninja/Desktop/test/MIPS32bit_Project/DataMemory.v" into library work
+Analyzing Verilog file "C:/Users/ninja/Desktop/test/MIPS32bit_Project/ControlUnit.v" into library work
+Analyzing Verilog file "C:/Users/ninja/Desktop/test/MIPS32bit_Project/and_gate.v" into library work
+Analyzing Verilog file "C:/Users/ninja/Desktop/test/MIPS32bit_Project/ALU_control.v" into library work
+Analyzing Verilog file "C:/Users/ninja/Desktop/test/MIPS32bit_Project/ALU.v" into library work
+Analyzing Verilog file "C:/Users/ninja/Desktop/test/MIPS32bit_Project/adder_4.v" into library work
+Analyzing Verilog file "C:/Users/ninja/Desktop/test/MIPS32bit_Project/adder_32b.v" into library work
+Analyzing Verilog file "C:/Users/ninja/Desktop/test/MIPS32bit_Project/main_MIPS_32b.v" into library work
+Analyzing Verilog file "C:/Users/ninja/Desktop/test/MIPS32bit_Project/mipstest.v" into library work
+Analyzing Verilog file "C:/XilinxISE/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module adder_4
+Compiling module instMemory
+Compiling module Mux2x1
+Compiling module RegisterFile
+Compiling module signExtension
+Compiling module DataMemory
+Compiling module Mux2x1_32b
+Compiling module ALU
+Compiling module ALUControl
+Compiling module ControlUnit
+Compiling module shiftby2_32b
+Compiling module adder_32b
+Compiling module and_gate
+Compiling module shiftby2_26b
+Compiling module jump_concat
+Compiling module main_MIPS_32b
+Compiling module mipstest
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 18 Verilog Units
+Built simulation executable C:/Users/ninja/Desktop/test/MIPS32bit_Project/mipstest_isim_beh.exe
+Fuse Memory Usage: 28872 KB
+Fuse CPU Usage: 359 ms

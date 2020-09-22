@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/ninja/Desktop/MIPS32bit_Project/instMemory.xst" -ofn "C:/Users/ninja/Desktop/MIPS32bit_Project/instMemory.syr" 
